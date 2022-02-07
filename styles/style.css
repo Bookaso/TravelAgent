@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    margin: 0 12px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    font-weight: 400;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 24px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.menu ul li a:hover, .active{
+    font-weight: 700 !important;
+}
+
+.login-btn, .sign-up-btn{
+    border: none;
+    background:none;
+    margin: 0 24px;
+    cursor: pointer;
+}
+.login-btn:hover{
+    color: #d57d39;
+}
+.sign-up-btn{
+    background-color: #ffff;
+    color: #d57d39;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.sign-up-btn:hover{
+    background-color: rgb(233, 227, 227);
+}
+.home{
+    background-image:url('../resource/Background.png');
+    padding: 24px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+.home-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+.home-details h1{
+    font-size: 72px;
+}
+.home-details p{
+    margin: 24px 0 ;
+}
+
+.home-details button{
+    border: none;
+    background-color: #ffff;
+    color: #d57d39;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.home-details button:hover{
+    background-color: rgb(233, 227, 227);
+}
+.search {
+    background-color: #ffff;
+    width: 800px;
+    height: 151px;
+    margin: auto;
+    border-radius: 30px;
+}
